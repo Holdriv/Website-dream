@@ -1,0 +1,47 @@
+.tabs-container{
+    width: 80vw;
+    margin: 0 auto;
+}
+.tab-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-nav-item{
+    border-bottom: 1px solid transparent;
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+}
+.tab-content-item img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.tab-nav-item.is-active{
+    border-color: red;
+}
+.tab-content-item{
+    display: none;
+    padding: 20px;
+    
+}
+
+.tab-content-item.is-active{
+    display: block;
+    
+}
+.is-active{
+    display: flex
+}
+
+.tab-content-text{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 10%;
+    display: block;
+
+}

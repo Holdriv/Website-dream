@@ -1,0 +1,26 @@
+.slider-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.slider-item h3{
+    position: absolute;
+    bottom: 30px;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    width: 75%;
+    margin-bottom: 7%;
+    margin-left: 5%;
+    color: #fff;
+}
+.slider-item img{
+    width: 80%;
+}
+
+.slider{
+    margin: 50px 0 ;
+    margin-left: 5%;
+}

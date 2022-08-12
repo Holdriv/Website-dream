@@ -1,0 +1,289 @@
+.choose h2{
+    font-size: 40px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+.choose{
+    text-align: center;
+    padding: 50px 100px;
+    margin-left: 70px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.choose-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.choose-item h3{
+    font-weight: 600;
+    font-size: 38px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.choose-item-txt{
+    width: 25%;
+    height: 500px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    text-align: left;
+    padding-top: 50px;
+    background-color: #F6F4FF;
+}
+
+.choose-item-txt div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.choose-item-txt div span{
+    margin-left: 20px;
+}
+.choose-item button{
+    width: 250px;
+    height: 70px;
+    background-color: #3685FB;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+.choose-item-txt1 button{
+    margin-top: 200px;
+}
+.choose-item-txt2 button{
+    margin-top: 115px;
+}
+.color{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -35px;
+    background-color: #F6F4FF;
+    z-index: -1;
+    opacity: .5;
+}
+.choose-item-txt1{
+    position: relative;
+    transition: .8s;
+    overflow: hidden;
+}
+.choose-item-txt1::after{
+    position: absolute;
+    content: "Basic";
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 0%;
+    background-color: #A18CD1;
+    top: 0;
+    left: -100%;
+    opacity: 1;
+    transition: .8s;
+    z-index: -1;
+}
+.choose-item-txt1:hover::after{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.choose-item-txt2{
+    position: relative;
+    transition: .8s;
+    overflow: hidden;
+}
+.choose-item-txt2::after{
+    position: absolute;
+    content: "Premium";
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 0%;
+    height: 0%;
+    background-color: #A18CD1;
+    top: 0;
+    left: -100%;
+    opacity: 1;
+    transition: .8s;
+    z-index: -1;
+}
+.choose-item-txt2:hover::after{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.choose-item-txt3{
+    position: relative;
+    overflow: hidden;
+    transition: .8s;
+}
+.choose-item-txt3::after{
+    position: absolute;
+    content: "Vip";
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 0%;
+    background-color: #A18CD1;
+    top: 0;
+    left: -100%;
+    opacity: 1;
+    transition: .8s;
+    z-index: -1;
+}
+.choose-item-txt3:hover::after{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+@media(max-width:1100px ) {
+    .choose-item h3{
+        font-size: 30px;
+    }
+    .choose-item-txt div span{
+        font-size: 15px;
+    }
+    .choose-item button{
+        width: 180px;
+        height: 50px;
+        margin-right: 30px;
+    }
+}
+@media(max-width:1000px ) {
+    .choose-item h3{
+        font-size: 30px;
+    }
+    .choose-item-txt div span{
+        font-size: 15px;
+    }
+    .choose-item>div{
+        width: 40%;
+    }
+    .choose-item button{
+        width: 180px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .choose-item-txt3{
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    .color{
+        display: none;
+    }
+}
+@media(max-width:750px ) {
+    .choose-item h3{
+        font-size: 25px;
+    }
+    .choose-item-txt div span{
+        font-size: 12px;
+    }
+    .choose-item>div{
+        width: 40%;
+    }
+    .choose-item button{
+        width: 180px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .choose-item-txt3{
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    .choose-item-txt img{
+        width: 20px;
+    }
+    .choose-item-txt{
+        height: 350px;
+    }
+    .choose-item-txt1 button{
+        margin-top: 130px;
+        width: 140px;
+    }
+    .choose-item-txt2 button{
+        margin-top: 70px;
+        width: 140px;
+    }
+    .choose-item-txt3 button{
+        margin-top: 20px;
+        width: 140px;
+    }
+}
+@media(max-width:650px ){
+    .choose-item>div{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .choose h2{
+        font-size: 24px;
+    }
+    .choose-item button{
+        margin-top: 130px;
+        width: 120px;
+    }
+    .choose-item-txt2 button{
+        margin-top: 40px;
+    }
+    .choose-item-txt3 button{
+        margin-top: 20px;
+    }
+}
+@media(max-width:500px ){
+    .choose-item>div{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 12%;
+        height: 320px;
+    }
+    .choose h2{
+        font-size: 20px;
+    }
+    .choose h3{
+        font-size: 16px;
+    }
+    .choose-item button{
+        margin-top: 30px;
+        width: 90px;
+        height: 30px;
+    }
+    
+    .choose-item-txt2 button{
+        margin-top: 40px;
+    }
+    .choose-item-txt3 button{
+        margin-bottom: 300px;
+    }
+    .choose-item-txt div span{
+        font-size: 10px;
+    }
+    .choose-item-txt img{
+        width: 16px;
+    }
+    
+}

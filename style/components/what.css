@@ -1,0 +1,178 @@
+.what{
+    background-color: #F0F2F5;
+    height: 70vw;
+    position: relative;
+}
+.what-box{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    width: 93%;
+    height: 90%;
+    background: #fff;
+    border-radius: 10px;
+}
+.what h2{
+    font-size: 40px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.what p{
+    color: #898989;
+    margin-left: 90px;
+}
+
+.what1{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+.what2{
+    position: absolute;
+    top: 300px;
+    left: 360px;
+}
+.what3{
+    position: absolute;
+    top: 200px;
+    left: 660px;
+}
+.what4{
+    position: absolute;
+    top: 90px;
+    right: 135px;
+}
+.what5{
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    border-bottom: 4px solid #3685FB;
+    box-shadow: 1px 4px 43px -1px rgba(34, 60, 80, 0.2);
+}
+@media(max-width:1317px ){
+    .what4{
+        position: absolute;
+        top: 0px;
+        left: 79%;
+        width: 25%;
+    }
+}
+@media(max-width:1200px ){
+    
+    .what1{
+        position: absolute;
+        top: 350px;
+        left: 0px;
+        width: 30%;
+    }
+    .what2{
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        width: 22%;
+    }
+    .what3{
+        position: absolute;
+        top: 200px;
+        left: 550px;
+        width: 25%;
+    }
+    .what4{
+        position: absolute;
+        top: 0px;
+        left: 78%;
+        width: 25%;
+    }
+}
+@media(max-width:1000px ){
+    
+    .what1{
+        position: absolute;
+        top: 350px;
+        left: 0px;
+        width: 30%;
+    }
+    .what2{
+        position: absolute;
+        top: 300px;
+        left: 27%;
+        width: 22%;
+    }
+    .what3{
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        width: 25%;
+    }
+    .what4{
+        position: absolute;
+        top: 0px;
+        left: 76%;
+        width: 25%;
+    }
+    .what h2{
+        font-size: 30px;
+    }
+    .what p{
+        font-size: 14px;
+    }
+    .what5{
+        width: 35%;
+        bottom: -10%;
+    }
+}
+@media(max-width:750px){
+    .what p{
+        font-size: 12px;
+    }
+    .what h2{
+        font-size: 17px;
+    }
+    .what4{
+        position: absolute;
+        top: 20%;
+        left: 76%;
+        width: 25%;
+    }
+    .what5{
+        width: 35%;
+        bottom: -30%;
+    }
+}
+@media(max-width:550px){
+    .what4{
+        display: none;
+    }
+    .what5{
+        width: 50%;
+        bottom: -60%;
+    }
+    .what1{
+        position: absolute;
+        top: 350px;
+        left: 12%;
+        width: 30%;
+    }
+    .what2{
+        position: absolute;
+        top: 300px;
+        left: 42%;
+        width: 22%;
+    }
+    .what3{
+        position: absolute;
+        top: 200px;
+        left: 67%;
+        width: 25%;
+    }
+}
+@media(max-width:550px){
+    .what5{
+        width: 50%;
+        bottom: -60%;
+        left: 40%;
+    }
+}

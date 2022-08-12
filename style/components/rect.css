@@ -1,0 +1,93 @@
+.rect{
+    background-image: url(../../img/rect.png);
+    background-size: cover;
+    height: 60vw;
+    position: relative;
+}
+.rect h2{
+    font-weight: 600;
+    font-size: 95px;
+    color: #fff;
+    position: absolute  ;
+    top: 100px;
+    left: 30px;
+}
+.rect button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 15px;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    background: linear-gradient(90deg, #E246EF 0%, #469EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-color: #fff;
+}
+@media(max-width:1000px){
+    .rect h2{
+        font-size: 50px;
+    }
+    .rect button{
+        width: 200px;
+        font-size: 20px;
+    }
+    .rect{
+        height: 50vw;
+        margin-top: 10%;
+    }
+}
+@media(max-width:800px){
+    .rect h2{
+        font-size: 30px;
+        margin-bottom: 15%;
+        margin-left: 3%;
+    }
+    .rect button{
+        width: 150px;
+        font-size: 20px;
+        height: 40px;
+    }
+    .rect{
+        height: 45vw;
+        margin-top: 30%;
+    }
+}
+@media(max-width:600px){
+    .rect h2{
+        font-size: 22px;
+        margin-bottom: 15%;
+        margin-left: 3%;
+    }
+    .rect button{
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .rect{
+        height: 45vw;
+        margin-top: 50%;
+    }
+}
+@media(max-width:500px){
+    .rect h2{
+        font-size: 16px;
+        margin-bottom: 200px;
+        margin-left: 3%;
+    }
+    .rect button{
+        width: 130px;
+        font-size: 12px;
+        height: 20px;
+        top: 150px;
+    }
+    .rect{
+        height: 45vw;
+        margin-top: 75%;
+    }
+}

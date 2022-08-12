@@ -1,0 +1,19 @@
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter-item{
+    text-align: center;
+    margin: 80px 40px;
+}
+.counter-item h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FF3CAC;
+    font-weight: bold;
+}
+.counter-item p{
+    font-size: 30px;
+    text-transform: uppercase;
+}
